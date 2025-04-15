@@ -8,5 +8,134 @@ Welcome to my Python prep for AI/ML interviews! This repo is all about mastering
 - **Coding Practice**: Hands-on problems to sharpen skills.
 - **Interview Questions**: Common questions with clear answers.
 
+## 🗺️ Roadmap
+- **Core Python**
+  - Data Structures
+    - Lists
+    - Dictionaries
+    - Tuples
+    - Sets
+    - Strings
+    - Frozen Sets
+  - Control Flow
+    - If-Else Statements
+    - Elif Statements
+    - Nested Conditionals
+    - For Loops
+    - While Loops
+    - Break Statement
+    - Continue Statement
+    - Pass Statement
+  - Functions
+    - Defining Functions
+    - Positional Arguments
+    - Keyword Arguments
+    - Default Parameters
+    - Variable-Length Arguments (*args, **kwargs)
+    - Lambda Expressions
+    - Recursion
+    - Function Annotations
+  - Comprehensions
+    - List Comprehensions
+    - Dictionary Comprehensions
+    - Set Comprehensions
+    - Generator Expressions
+  - Exception Handling
+    - Try-Except
+    - Multiple Except Blocks
+    - Else Clause
+    - Finally Clause
+    - Raise Statement
+    - Custom Exceptions
+  - Object-Oriented Programming
+    - Classes and Objects
+    - Attributes
+    - Methods
+    - Inheritance
+    - Multiple Inheritance
+    - Encapsulation
+    - Polymorphism
+    - Abstract Classes
+    - Static Methods
+    - Class Methods
+  - Modules and Packages
+    - Importing Modules
+    - Creating Modules
+    - Packages
+    - Standard Library
+      - math
+      - random
+      - datetime
+      - os
+      - sys
+      - time
+  - File Handling
+    - Reading Files
+    - Writing Files
+    - CSV Files
+    - JSON Files
+    - Binary Files
+  - Iterators and Generators
+    - Iterators
+    - Generators
+    - Yield Statement
+  - Decorators
+    - Function Decorators
+    - Class Decorators
+- **Data Science Libraries**
+  - NumPy
+    - Array Creation
+    - Indexing and Slicing
+    - Broadcasting
+    - Mathematical Operations
+    - Linear Algebra
+    - Random Number Generation
+    - Array Reshaping
+  - Pandas
+    - Series
+    - DataFrames
+    - Data Cleaning
+    - Grouping
+    - Merging and Joining
+    - Pivoting
+    - Reshaping
+    - Time Series
+  - Matplotlib
+    - Line Plots
+    - Scatter Plots
+    - Bar Charts
+    - Histograms
+    - Pie Charts
+    - Subplots
+  - Seaborn
+    - Heatmaps
+    - Pair Plots
+    - Box Plots
+    - Violin Plots
+    - Count Plots
+    - Regression Plots
+  - Scikit-learn
+    - Preprocessing
+    - Model Fitting
+    - Prediction
+    - Evaluation Metrics
+    - Pipelines
+    - Hyperparameter Tuning
+  - Collections
+    - Counter
+    - Defaultdict
+    - Namedtuple
+    - OrderedDict
+    - Deque
+  - Itertools
+    - Combinations
+    - Permutations
+    - Product
+    - Chain
+  - Functools
+    - Partial Functions
+    - Reduce
+    - Lru_cache
+
 ## 💡 Why Python?
 Python powers AI/ML workflows, from data cleaning to model building. This repo is my step toward acing technical interviews.
