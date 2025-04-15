@@ -15,7 +15,7 @@
 
 ## 📖 Introduction
 
-Welcome to my Python prep for AI/ML interviews! This repo is all about mastering Python, the backbone of data science and machine learning, through coding and interview practice. Whether you’re gearing up for technical interviews or boosting your skills for AI projects, this resource covers fundamentals to advanced topics with clarity and depth.
+Welcome to my Python prep for AI/ML interviews! 🚀 This repository is your essential guide for mastering Python, the backbone of AI and data science, with hands-on coding and interview-focused practice. From core fundamentals to advanced techniques, it’s crafted to help you shine in technical interviews and AI projects with clarity and confidence.
 
 ## 🌟 What’s Inside?
 
