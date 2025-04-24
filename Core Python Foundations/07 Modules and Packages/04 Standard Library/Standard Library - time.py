@@ -1,0 +1,79 @@
+# Python Modules and Packages: Standard Library - time
+
+# Purpose: The time module provides time-related functions (e.g., delays, timestamps).
+# Key Features: Measure execution time, add delays, format time.
+
+# 1. Getting Current Time
+# Explanation: Use time.time() for Unix timestamp, time.ctime() for readable time.
+# Example:
+import time
+
+current_time = time.ctime()
+print(f"Current time: {current_time}")
+# Output: Current time: Sat Apr 19 HH:MM:SS 2025 (current time)
+
+# 2. Adding Delays
+# Explanation: Use time.sleep() to pause execution.
+# Example:
+import time
+
+print("Processing order...")
+time.sleep(2)  # Simulate processing delay
+print("Order processed")
+# Output: Processing order...
+#         (2-second pause)
+#         Order processed
+
+# 3. Retail Scenario with time
+# Explanation: Measure time for retail operations (e.g., batch processing).
+# Example:
+import time
+
+# Simulate processing multiple orders
+orders = ["Order 101", "Order 102", "Order 103"]
+start_time = time.time()
+for order in orders:
+    print(f"Processing {order}")
+    time.sleep(1)  # Simulate work
+end_time = time.time()
+print(f"Total processing time: {end_time - start_time:.2f} seconds")
+# Output: Processing Order 101
+#         Processing Order 102
+#         Processing Order 103
+#         Total processing time: 3.01 seconds (approx)
+
+# Exercise 1: Print the current timestamp using time.time().
+# Solution:
+# import time
+# timestamp = time.time()
+# print("Exercise 1 - Timestamp:", timestamp)
+# # Output: Timestamp: (e.g., 1745102400.123)
+
+# Exercise 2: Add a 3-second delay between printing two messages.
+# Solution:
+# import time
+# print("Starting...")
+# time.sleep(3)
+# print("Exercise 2 - Done")
+# # Output: Starting...
+# #         (3-second pause)
+# #         Done
+
+# Exercise 3: Measure time to process a list of products.
+# Solution:
+# import time
+# products = ["Laptop", "Smartphone"]
+# start = time.time()
+# for product in products:
+#     print("Processing", product)
+#     time.sleep(1)
+# end = time.time()
+# print("Exercise 3 - Processing time:", end - start)
+# # Output: Processing Laptop
+# #         Processing Smartphone
+# #         Processing time: 2.00 (approx)
+
+# Notes:
+# - time is useful in ML for profiling code or web apps for scheduling tasks.
+# - time.time() returns seconds since epoch (Jan 1, 1970); use for timing.
+# - For date handling, prefer datetime module.

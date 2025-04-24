@@ -123,71 +123,6 @@ Welcome to my Python prep for AI/ML interviews! This repo is all about mastering
 
 ---
 
-### 📊 Data Science Libraries
-
-#### 🔢 NumPy
-- Array Creation
-- Indexing and Slicing
-- Broadcasting
-- Mathematical Operations
-- Linear Algebra
-- Random Number Generation
-- Array Reshaping
-
-#### 🐼 Pandas
-- Series
-- DataFrames
-- Data Cleaning
-- Grouping
-- Merging and Joining
-- Pivoting
-- Reshaping
-- Time Series
-
-#### 📈 Matplotlib
-- Line Plots
-- Scatter Plots
-- Bar Charts
-- Histograms
-- Pie Charts
-- Subplots
-
-#### 🌈 Seaborn
-- Heatmaps
-- Pair Plots
-- Box Plots
-- Violin Plots
-- Count Plots
-- Regression Plots
-
-#### 🧠 Scikit-learn
-- Preprocessing
-- Model Fitting
-- Prediction
-- Evaluation Metrics
-- Pipelines
-- Hyperparameter Tuning
-
-#### 📚 Collections
-- Counter
-- Defaultdict
-- Namedtuple
-- OrderedDict
-- Deque
-
-#### 🔄 Itertools
-- Combinations
-- Permutations
-- Product
-- Chain
-
-#### 🔧 Functools
-- Partial Functions
-- Reduce
-- Lru_cache
-
----
-
 ## 💡 Why Master Python for AI/ML?
 
 Python is the go-to language for AI/ML, and here’s why:
@@ -203,10 +138,6 @@ This repo is my roadmap to mastering Python for technical interviews and AI/ML c
 
 - **Week 1-2**: Core Python Fundamentals
 - **Week 3-4**: Data Structures and Algorithms
-- **Week 5-6**: NumPy and Pandas Mastery
-- **Week 7-8**: Visualization with Matplotlib and Seaborn
-- **Week 9-10**: Machine Learning with Scikit-learn
-- **Week 11-12**: Advanced Topics and Interview Practice
 
 ## 🤝 Contributions
 
