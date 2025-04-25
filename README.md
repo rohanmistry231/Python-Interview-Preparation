@@ -109,8 +109,6 @@ Welcome to my Python prep for AI/ML interviews! 🚀 This repository is your ess
 - Reading Files
 - Writing Files
 - CSV Files
-- JSON Files
-- Binary Files
 
 #### 🔄 Iterators and Generators
 - Iterators

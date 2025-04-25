@@ -1,9 +1,9 @@
+# %% Purpose
 # Python Modules and Packages: Standard Library - sys
-
 # Purpose: The sys module provides system-specific parameters and functions.
 # Key Features: Command-line arguments, Python version, exit program.
 
-# 1. Accessing System Information
+# %% 1. Accessing System Information
 # Explanation: Use sys.version and sys.platform for system details.
 # Example:
 import sys
@@ -13,7 +13,7 @@ print(f"Platform: {sys.platform}")
 # Output: Python version: (e.g., 3.11.4 ...)
 #         Platform: (e.g., win32 or linux)
 
-# 2. Command-Line Arguments
+# %% 2. Command-Line Arguments
 # Explanation: sys.argv contains command-line arguments.
 # Example:
 import sys
@@ -32,7 +32,7 @@ except ValueError:
 # Output: Product: Laptop, Price: $999.99 (if args provided)
 # Note: Run as 'python script.py Laptop 999.99' in practice
 
-# 3. Retail Scenario with sys
+# %% 3. Retail Scenario with sys
 # Explanation: Exit program if invalid retail data is provided.
 # Example:
 import sys
@@ -54,29 +54,7 @@ except ValueError:
 # Output: Error: Negative price (exits if price < 0)
 # Note: Run as 'python script.py Smartphone -10' in practice
 
-# Exercise 1: Print the Python version using sys.version.
-# Solution:
-# import sys
-# print("Exercise 1 - Python version:", sys.version)
-# # Output: Python version: (e.g., 3.11.4 ...)
-
-# Exercise 2: Check the platform using sys.platform.
-# Solution:
-# import sys
-# print("Exercise 2 - Platform:", sys.platform)
-# # Output: Platform: (e.g., win32 or linux)
-
-# Exercise 3: Use sys.argv to process a product name from command line.
-# Solution:
-# import sys
-# if len(sys.argv) >= 2:
-#     product_name = sys.argv[1]
-#     print("Exercise 3 - Product name:", product_name)
-# else:
-#     print("Exercise 3 - Error: Provide product name")
-# # Output: Product name: (provided name) (run as 'python script.py Mouse')
-# # Note: Run as 'python script.py Mouse' in practice
-
+# %% Notes
 # Notes:
 # - sys is useful in ML for script configuration or web apps for runtime info.
 # - Use sys.exit() for controlled program termination.

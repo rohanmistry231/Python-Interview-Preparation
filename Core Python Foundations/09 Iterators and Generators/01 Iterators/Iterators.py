@@ -1,9 +1,9 @@
+# %% Purpose
 # Python Iterators and Generators: Iterators
-
 # Purpose: Iterators allow sequential access to elements in a collection, implementing __iter__() and __next__().
 # Key Features: Memory-efficient iteration, supports for loops, custom iteration logic.
 
-# 1. Using Built-in Iterators
+# %% 1. Using Built-in Iterators
 # Explanation: Lists, tuples, etc., are iterable; use iter() and next() for manual iteration.
 # Example:
 products = ["Laptop", "Smartphone", "Coffee Maker"]
@@ -13,7 +13,7 @@ print("Second product:", next(iterator))
 # Output: First product: Laptop
 #         Second product: Smartphone
 
-# 2. Creating a Custom Iterator
+# %% 2. Creating a Custom Iterator
 # Explanation: Define a class with __iter__() and __next__() methods.
 # Example:
 class ProductInventory:
@@ -36,7 +36,7 @@ for product in inventory:
 #         Inventory item: Keyboard
 #         Inventory item: Monitor
 
-# 3. Retail Scenario with Iterators
+# %% 3. Retail Scenario with Iterators
 # Explanation: Iterate over retail orders with custom logic (e.g., filter expensive orders).
 # Example:
 class OrderIterator:
@@ -64,45 +64,7 @@ for order in expensive_orders:
 # Output: Expensive order 101: $1999.98
 #         Expensive order 103: $699.99
 
-# Exercise 1: Create an iterator for a list of categories and print the first two manually.
-# Solution:
-# categories = ["Electronics", "Appliances", "Clothing"]
-# iterator = iter(categories)
-# print("Exercise 1 - First category:", next(iterator))
-# print("Exercise 1 - Second category:", next(iterator))
-# # Output: First category: Electronics
-# #         Second category: Appliances
-
-# Exercise 2: Define a custom iterator for stock levels, returning only levels below 50.
-# Solution:
-# class StockIterator:
-#     def __init__(self, stocks):
-#         self.stocks = stocks
-#         self.index = 0
-#     def __iter__(self):
-#         return self
-#     def __next__(self):
-#         while self.index < len(self.stocks):
-#             stock = self.stocks[self.index]
-#             self.index += 1
-#             if stock < 50:
-#                 return stock
-#         raise StopIteration
-# stocks = [30, 60, 20, 100]
-# low_stock = StockIterator(stocks)
-# print("Exercise 2 - Low stock levels:", [stock for stock in low_stock])
-# # Output: Low stock levels: [30, 20]
-
-# Exercise 3: Use a built-in iterator to process a list of prices in a for loop.
-# Solution:
-# prices = [999.99, 49.99, 299.99]
-# iterator = iter(prices)
-# for price in iterator:
-#     print("Exercise 3 - Price:", price)
-# # Output: Price: 999.99
-# #         Price: 49.99
-# #         Price: 299.99
-
+# %% Notes
 # Notes:
 # - Iterators are memory-efficient for large datasets in ML (e.g., batch processing) or web apps (e.g., streaming API responses).
 # - StopIteration signals the end of iteration; handle in custom iterators.
