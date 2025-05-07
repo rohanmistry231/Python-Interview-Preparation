@@ -2,7 +2,7 @@
 
 **Master Python, Ace Interviews!** Dive into **102 meticulously crafted Python coding exercises** designed to prepare you for technical interviews at top tech companies like Google, Amazon, and Microsoft. From **beginner-friendly basics** to **mind-bending advanced algorithms**, this repository has it all! 📚💡 Retail-themed examples (e.g., order processing, inventory management) bring real-world flavor to your learning journey. Ready to crush your next interview? Let’s get coding! 🔥
 
-[![Python Version](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/) [![Exercises](https://img.shields.io/badge/Exercises-102-green)](./) [![Topics](https://img.shields.io/badge/Topics-Algorithms%20|%20Data%20Structures-orange)](./) [![License](https://img.shields.io/badge/License-MIT-yellow)](./LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/) [![Exercises](https://img.shields.io/badge/Exercises-102-green)](./) [![Topics](https://img.shields.io/badge/Topics-Algorithms%20|%20Data%20Structures-orange)](./)
 
 ## 🎯 Why This Repository?
 
