@@ -1,4 +1,4 @@
-# Python Patterns Interview Questions
+# Python Star & Number Patterns Interview Questions
 
 This README provides **100 Python pattern questions** designed for AI/ML students preparing for technical interviews. The questions focus on printing patterns (e.g., stars, numbers, characters) commonly asked in Python coding interviews. They are categorized into **Basic**, **Intermediate**, and **Advanced** levels, covering a range of pattern types like pyramids, triangles, diamonds, and more complex designs. Each question includes a problem statement, with the solution hidden in a `<details>` tag to encourage users to attempt the problem before viewing the answer. This format supports hands-on practice and aligns with interview preparation for AI/ML roles.
 
