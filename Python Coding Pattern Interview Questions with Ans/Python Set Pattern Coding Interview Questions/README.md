@@ -1,4 +1,4 @@
-# Python Set DSA Patterns Interview Questions
+# Python Set Patterns Interview Questions
 
 This README provides **100 Python set manipulation questions** designed for AI/ML students preparing for technical interviews. The questions focus on set-specific problems, leveraging Python's set data structure for efficient operations like union, intersection, difference, and membership testing, as well as DSA patterns such as union-find, hashing, and combinatorial problems. They are categorized into **Basic**, **Intermediate**, and **Advanced** levels, covering tasks like duplicate detection, subset checks, and complex set-based algorithms. Each question includes a problem statement, with the solution hidden in a `<details>` tag to encourage users to attempt the problem before viewing the answer. This format supports hands-on practice and aligns with interview preparation for AI/ML roles, complementing the list-focused DSA questions.
 

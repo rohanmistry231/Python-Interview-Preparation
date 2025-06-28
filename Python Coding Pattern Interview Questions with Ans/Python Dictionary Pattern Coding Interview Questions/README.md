@@ -1,4 +1,4 @@
-# Python Dictionary DSA Patterns Interview Questions
+# Python Dictionary Patterns Interview Questions
 
 This README provides **100 Python dictionary manipulation questions** designed for AI/ML students preparing for technical interviews. The questions focus on dictionary-specific problems, leveraging Python's dictionary data structure for efficient key-value operations and Data Structures and Algorithms (DSA) patterns such as hash tables, frequency counting, grouping, and dynamic programming. They are categorized into **Basic**, **Intermediate**, and **Advanced** levels, covering tasks like frequency analysis, key-value mapping, and complex dictionary-based algorithms. Each question includes a problem statement, with the solution hidden in a `<details>` tag to encourage users to attempt the problem before viewing the answer. This format supports hands-on practice and aligns with interview preparation for AI/ML roles, complementing the list and set-focused DSA questions.
 

@@ -1,4 +1,4 @@
-# Python Tuple DSA Patterns Interview Questions
+# Python Tuple Patterns Interview Questions
 
 This README provides **100 Python tuple manipulation questions** designed for AI/ML students preparing for technical interviews. The questions focus on tuple-specific problems, leveraging Python's tuple data structure for immutable sequence operations and Data Structures and Algorithms (DSA) patterns such as sorting, searching, grouping, and combinatorial problems. They are categorized into **Basic**, **Intermediate**, and **Advanced** levels, covering tasks like tuple comparisons, subsequence checks, and complex tuple-based algorithms. Each question includes a problem statement, with the solution hidden in a `<details>` tag to encourage users to attempt the problem before viewing the answer. This format supports hands-on practice and aligns with interview preparation for AI/ML roles, complementing the list, set, and dictionary-focused DSA questions.
 
