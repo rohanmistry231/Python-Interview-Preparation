@@ -1,4 +1,4 @@
-# Python List DSA Patterns Interview Questions
+# Python List Patterns Interview Questions
 
 This README provides **100 Python list manipulation questions** designed for AI/ML students preparing for technical interviews. The questions focus on list-specific problems, emphasizing Data Structures and Algorithms (DSA) patterns such as two pointers, sliding windows, prefix sums, binary search, and Pythonic idioms like slicing and list comprehensions. They are categorized into **Basic**, **Intermediate**, and **Advanced** levels, covering operations like reversals, rotations, sublist sums, and complex algorithms tailored to Python's list features. Each question includes a problem statement, with the solution hidden in a `<details>` tag to encourage users to attempt the problem before viewing the answer. This format supports hands-on practice and aligns with interview preparation for AI/ML roles, focusing on list-specific DSA patterns.
 
